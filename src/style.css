@@ -1,0 +1,68 @@
+/* lear */
+/* Tic Tac Toe */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Colors */
+#root {
+  width: 100%;
+  height: 100vh;
+  background-color: #16161f;
+  color: #f8f9fa;
+}
+#root .player-x {
+  color: #f63666;
+}
+#root .player-o {
+  color: #3666f6;
+}
+#root .main {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  grid-gap: 3rem;
+}
+#root .main .title {
+  font-size: 4rem;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+#root .main .announcer {
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+#root .main .announcer .player-color {
+  color: #f63666;
+}
+#root .main .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+#root .main .container .box {
+  width: 110px;
+  height: 110px;
+  outline: 1px solid;
+  cursor: pointer;
+  display: grid;
+  place-content: center;
+  font-size: 2.5rem;
+}
+#root .main .reset-btn {
+  padding: 0.6rem 1.8rem;
+  border: none;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  background-color: #f63666;
+  color: #f8f9fa;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
